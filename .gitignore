@@ -1,0 +1,5 @@
+.env
+wallets_copy.txt
+wallets.txt
+brownie
+__pycache__
