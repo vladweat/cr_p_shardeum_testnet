@@ -41,6 +41,7 @@ Scripts\activate.bat
 (venv) python main.py
 ```
 
+
 ## Для понимания
 
 `client.create_accounts(10)` - создание 10 аккаунтов в файл wallets.txt
