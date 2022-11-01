@@ -45,8 +45,13 @@ Scripts\activate.bat
 ## Для понимания
 
 `client.create_accounts(10)` - создание 10 аккаунтов в файл wallets.txt
+
 `client.get_adresses()` - получение адресов из wallet.txt
+
 `client.disperse_smh_to_wallets(client.get_adresses())` - рассылка по кошелькам иwallet.txt
+
 `client.get_wallets_balance(сюда передать кошельки)` - вывод баланса кошельков из wallet.txt
+
 `client.send_smh_to_main(сюда передать кошельки)` - сбор всех токенов с кошельков на кошелек из .env
+
 `client.deploy_contract_on_wallets(сюда передать кошельки)` - деплой контракта Attendence.sol с кошельков
